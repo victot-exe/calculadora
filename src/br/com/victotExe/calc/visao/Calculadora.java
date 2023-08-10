@@ -12,6 +12,7 @@ public class Calculadora extends JFrame{
 		organizarLayout();
 		
 		setSize(232, 322);
+//		setUndecorated(true);//sumir com a barra de cima(close, min e max)
 //		setDefaultCloseOperation(DISPOSE_ON_CLOSE);//fecha a tela atual
 		setDefaultCloseOperation(EXIT_ON_CLOSE);//fecha a aplicação
 		setLocationRelativeTo(null);
